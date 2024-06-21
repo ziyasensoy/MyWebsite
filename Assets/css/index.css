@@ -106,6 +106,7 @@ body.dark-theme {
 }
 
 html {
+  zoom: 125%;
   scroll-behavior: smooth;
 }
 
@@ -361,6 +362,7 @@ img {
   padding: 1rem;
   border-radius: 0.5rem;
   font-weight: var(--font-medium);
+  border: none; /* Remove default border */   
 }
 
 .button:hover {

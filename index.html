@@ -3,14 +3,13 @@
   <head>
     <meta charset="uft-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
+    <title>Ziya's portfolio</title>
     <!--font-->
-    <link
-      rel="stylesheet"
-      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
-    />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"/>
     <!--css-->
-    <link rel="stylesheet" href="Assets/css/index.css" />
+    <link rel="stylesheet" href="Assets/css/index.css"/>
+    <link rel="shortcut icon" href="/Assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/Assets/images/favicon.ico" type="image/x-icon">
   </head>
   <body>
     <!--====================== HEADER ======================-->
@@ -114,8 +113,8 @@
                   />
                   <image
                     class="home_blob-img"
-                    x="12"
-                    y="-30"
+                    x="15"
+                    y="-35"
                     href="assets/images/photo1-nobackground.png"
                     alt="photo1-nobackground"
                   />
@@ -167,7 +166,7 @@
 
             <div class="about_info">
               <div>
-                <span class="about_info-title">03+</span>
+                <span class="about_info-title">3+</span>
                 <span class="about_info-name"
                   >Years <br />
                   experience</span
@@ -183,7 +182,7 @@
               </div>
 
               <div>
-                <span class="about_info-title">04+</span>
+                <span class="about_info-title">4+</span>
                 <span class="about_info-name"
                   >Years <br />
                   experience</span
@@ -192,8 +191,8 @@
             </div>
 
             <div class="about_buttons">
-              <a download="" href="#" class="button button-flex">
-                Download CV<i class="uil uil-download-alt button_icon"></i>
+                <a href="./Assets/files/Curriculum vitae - Ziya Sensoy.pdf"  class="button button-flex" download="Curriculum Vitae - Ziya Sensoy"  >Download CV
+                <i class="uil uil-download-alt button_icon"></i></a>
               </a>
             </div>
           </div>
@@ -373,7 +372,7 @@
             </div>
           </div>
 
-          <form action="" class="contact_form grid" action="contactform.php"  method="post">
+          <form action="https://formsubmit.co/zcsensoy@gmail.com" class="contact_form grid" method="POST">
             <div class="contact_inputs grid">
               <div class="contact_content">
                 <label for="" class="contact_label">Name</label>
@@ -381,7 +380,7 @@
               </div>
               <div class="contact_content">
                 <label for="" class="contact_label">Email</label>
-                <input type="email" name="email" class="contact_input" required/>
+                <input type="email" name="email" id="email" class="contact_input" required/>
               </div>
             </div>
             <div class="contact_content">
@@ -400,11 +399,13 @@
             </div>
 
             <div>
-              <a href="#" class="button button-flex">
-                Send Message
+              <button type="submit" class="button button-flex"> 
+                Send Message 
                 <i class="uil uil-message button_icon"></i>
-              </a>
+              </button>
             </div>
+
+
           </form>
         </div>
       </section>

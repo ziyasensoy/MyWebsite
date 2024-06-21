@@ -6,7 +6,7 @@
 
   /*========= COLORS ========= */
   /* Change favorite color*/
-  --hue-color: 200; /*purple 250 - green 142 - blue 210 - pink 340 */
+  --hue-color: 240; /*purple 250 - green 142 - blue 210 - pink 340 */
 
   /* HSL color mode */
   --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -432,6 +432,10 @@ img {
   cursor: pointer;
 }
 
+.skills_data {
+  margin-bottom: 25px;
+}
+
 .skills_icon,
 .skills_arrow {
   font-size: 2rem;
@@ -489,15 +493,27 @@ img {
 
 /* front-end */
 .skills_html {
-  width: 80%;
+  width: 95%;
 }
 
 .skills_css {
-  width: 70%;
+  width: 85%;
 }
 
 .skills_javascript {
-  width: 30%;
+  width: 40%;
+}
+
+.skills_react {
+  width: 0%;
+}
+
+.skills_bootstrap {
+  width: 0%;
+}
+
+.skills_sass {
+  width: 0%;
 }
 
 /* back-end */
@@ -516,10 +532,6 @@ img {
 /* databases */
 .skills_mysql {
   width: 20%;
-}
-
-.skills_php {
-  width: 0%;
 }
 
 .skills_close .skills_list {

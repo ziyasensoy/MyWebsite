@@ -362,7 +362,7 @@ img {
   padding: 1rem;
   border-radius: 0.5rem;
   font-weight: var(--font-medium);
-  border: none; /* Remove default border */   
+  border: none; /* Remove default border */
 }
 
 .button:hover {
@@ -517,7 +517,7 @@ img {
   width: 85%;
 }
 
-.skills_wordpress{
+.skills_wordpress {
   width: 100%;
 }
 
